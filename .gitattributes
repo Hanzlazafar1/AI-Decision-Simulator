@@ -1,0 +1,7 @@
+# Hide frontend files from language statistics
+frontend/**/* linguist-documentation
+frontend/**/*.css linguist-documentation
+frontend/**/*.js linguist-documentation
+
+# Ensure Python is detected correctly
+backend/**/*.py linguist-detectable=true
